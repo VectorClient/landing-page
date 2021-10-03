@@ -7,7 +7,11 @@ module.exports = {
   purge: ["./src/**/*.{html,js,svelte,ts}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        normak: ["Roboto, sans-serif"]
+      }
+    },
   },
   variants: {
     extend: {},

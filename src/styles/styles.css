@@ -1,0 +1,26 @@
+/* Custom styles */
+@keyframes logoImg {
+  from {
+      transform: scale(0,0);
+      opacity: 0%;
+      filter: brightness(1)
+  }
+  to {
+      transform: scale(0.4,0.4));
+      opacity: 100%;
+      filter: brightness(1)
+  }
+}
+
+@keyframes logoText {
+  from {
+      transform: scale(10,10);
+      opacity: 0%;
+      filter: brightness(1)
+  }
+  to {
+      transform: scale(1,1);
+      opacity: 100%;
+      filter: brightness(1)
+  }
+}
